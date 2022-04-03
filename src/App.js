@@ -2,21 +2,23 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Create from './components/Create'
+import BlogDetails from './components/BlogDetails'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <div className='content'>
-        <Router>
+    <Router>
+      <div>
+        <Navbar />
+        <div className='content'>
           <Routes>
             <Route path='/*' element={<Home />} />
             <Route path='/create' element={<Create />} />
+            <Route path='/blogs/:id' element={<BlogDetails />} />
           </Routes>
-        </Router>
+        </div>
       </div>
-    </div>
+    </Router>
   )
 }
 
