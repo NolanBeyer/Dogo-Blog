@@ -1,16 +1,10 @@
 {
-    "blogs": [
-        {
-            "title": "My first blog",
-            "body": "Why do we use it?/nIt is a long story that a reader will be distracted by.",
-            "author": "Mario",
-            "id": 1
-        },
-        {
-            "title": "Opening party",
-            "body": "why do we use it?/nIt is a long story that a reader will be distracted by",
-            "author": "Luigi",
-            "id": 2
-        }
-    ]
+  "blogs": [
+    {
+      "title": "Daily Life In a self taught developer",
+      "body": "Really focusing on mastering fetching data with the useEffect hook, axios, and async / await ",
+      "author": "mario",
+      "id": 1
+    }
+  ]
 }
